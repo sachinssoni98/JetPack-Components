@@ -23,10 +23,6 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/dog_image"
         android:layout_margin="4dp"
-        android:layout_marginStart=""
-        android:layout_marginTop=""
-        android:layout_marginEnd=""
-        android:layout_marginBottom=""
         android:gravity="center"
         android:text="Dog Name" />
 
