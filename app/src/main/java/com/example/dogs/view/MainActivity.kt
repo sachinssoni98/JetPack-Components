@@ -12,6 +12,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        //Used for Back action button 
         navHostFragment= supportFragmentManager.findFragmentById(R.id.fragment) as NavHostFragment
         navCtl= navHostFragment.navController
         NavigationUI.setupActionBarWithNavController(this, navCtl)
